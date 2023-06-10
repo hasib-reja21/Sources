@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-image: url('images/lifestyle.jpg');
+            opacity: 70%;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .menu ul {
+
+            list-style: none;
+            display: -webkit-inline-box;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            justify-content: end;
+            margin: 20px;
+            font-size: 18px;
+            color: rgb(1, 36, 1);
+            cursor: pointer;
+           
+        }
+        
+        .menu ul li a:hover{
+            color: brown;
+            border-radius: 7px;
+            background-color: white;
+            padding: .75rem;
+
+            
+        }
+        #btn {
+
+            color: white;
+            margin-top: 15px;
+            height: 30px;
+            width: 90px;
+            background-color: red;
+            border-radius: 7px;
+            border: 1px saddlebrown;
+        }
+
+
+        .right {
+            float: right;
+            margin-right: 20px;
+            transform: translate(-168px, 0px);
+        }
+
+        .logo {
+            font-family: 'Zen Tokyo Zoo', cursive;
+            
+            font-size: 30px;
+            color: black;
+            margin-left: 180px;
+            margin-top: 13px;
+            transform: translate(29px, 15px);
+        }
+        
+
+        #btn1 {
+            background-color: red;
+            height: 25px;
+            width: 95px;
+            border: 1px solid red;
+            border-radius: 3px;
+            transform: translate(0px,-66px);
+        }
+
+        #btn2 {
+            background-color: white;
+            height: 25px;
+            width: 95px;
+            border: 1px solid white;
+            border-radius: 3px;
+            transform: translate(17px, -66px);
+        }
+
+        h3 {
+            transform: translate(0px, -36px);
+            color: #5e5252;
+            font-size: 28px;
+        }
+
+        .hero-image {
+            transform: translate(203px, 191px);
+        }
+
+        p {
+            color: rgb(128, 5, 75);
+            transform: translate(0px,-58px);
+        }
+        h1{
+            color: red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            opacity: 90%;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="menu">
+        <div class ="logo" style="float: left;"><span style="color: red;"> R</span>amisha</div><br>
+        <div class="right">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us </a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact</a></li><br>
+                <span>
+                    
+                </span>
+
+            </ul>
+            <button onclick="myFunction()"id="btn">Download CV</button><br>
+
+        </div><br>
+
+    </nav><br><br>
+
+    <hr>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Hi, I am Ramisha</h1>
+            <h3>Freelane UI/UX Designer</h3>
+            <p>Lorem ipsum dolor sit amet, consectethr adipiscing elit.Etiameu<br>turpis molestie, dictum est a, mattis
+                tellus.Sed dignissim,metus<br>nec fringilla accumsah,risus sem sollicitudin lacus,ut interdum<br>tellus
+                elit sed risus</p>
+            <button onclick="myFunction1()"id="btn1">Hire me</button> <button id="btn2">Contact me</button>
+        </div>
+    </div>
+
+    <script>
+        function myFunction(){
+            alert("Do you want to download the CV?");
+        }
+
+        function myFunction1(){
+            alert("Do you want to Hire me?");
+        }
+        </script>
+    
+</body>
+
+</html>
